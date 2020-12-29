@@ -1,0 +1,9 @@
+{
+  "name": "houdini-snow",
+  "version": "0.1.0",
+  "description": "A simple Houdini paint worklet that makes the browser snow",
+  "main": "worklet.js",
+  "repository": "https://github.com/anthonylegoas/houdini-snow.git",
+  "author": "Anthony Le Goas",
+  "license": "MIT"
+}
