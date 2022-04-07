@@ -1,0 +1,40 @@
+body {
+  background: #03051a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+}
+
+h1 {
+  color: white;
+  display: block;
+  font-family: monospace;
+  font-size: 2rem;
+  font-weight: 100;
+  padding: 2rem;
+  margin: auto;
+}
+
+img.village {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+@supports (background: paint(something)) {
+  main {
+    --stars-number: 140;
+    --stars-size-min: 1;
+    --stars-size-max: 2;
+
+    background: paint(starry-night), linear-gradient(#2f114b, #2ea4a6);
+  }
+}
